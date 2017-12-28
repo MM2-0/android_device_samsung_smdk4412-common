@@ -159,7 +159,7 @@ ifeq ($(WITH_TWRP),true)
 endif
 
 # SELinux
-BOARD_SEPOLICY_DIRS += device/samsung/smdk4412-common/selinux
+#BOARD_SEPOLICY_DIRS += device/samsung/smdk4412-common/selinux
 
 # Charging mode
 BOARD_CHARGING_MODE_BOOTING_LPM := /sys/class/power_supply/battery/batt_lp_charging
